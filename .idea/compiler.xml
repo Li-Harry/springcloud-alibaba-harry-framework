@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="neoderm-swagger-starter" />
+        <module name="neoderm-core-starter" />
+        <module name="neoderm-db-starter" />
+        <module name="neoderm-feign-starter" />
+        <module name="neoderm-job-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="neoderm-log-starter" target="8" />
+      <module name="neoderm-redis-starter" target="8" />
+      <module name="neoderm-xxl-job-starter" target="8" />
+      <module name="XxlJobAutoConfiguration" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

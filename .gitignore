@@ -1,0 +1,6 @@
+# Project exclude paths
+/neoderm-core-starter/target/
+/neoderm-db-starter/target/
+/neoderm-feign-starter/target/
+/neoderm-job-common/target/
+/neoderm-swagger-starter/target/

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.neoderm.feign.config.FeignConfig,\
+com.neoderm.feign.handler.FeignExceptionDecoder

@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.neoderm.core.aspect.LoginUserAspect,\
+  com.neoderm.core.exception.ServiceErrorAttributes,\
+  com.neoderm.core.config.JacksonConfiguration,\
+  com.neoderm.core.config.RedisTemplateConfiguration,\
+  com.neoderm.core.utils.SpringContextHolder,\
+  com.neoderm.core.config.NeodermHttpMessageConverter,\
+  com.neoderm.core.config.ValidatorConfiguration
